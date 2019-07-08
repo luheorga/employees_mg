@@ -10,6 +10,7 @@ namespace MassGlobal.Employees.Resolver
     {
         public static IServiceCollection AddEmployeeServices(this IServiceCollection serviceCollection)
         {
+            serviceCollection.AddHttpClient();
             serviceCollection.AddScoped<IEmployeesRepository, EmployeesAPIRepository>();
             serviceCollection.AddSingleton<IEmployeeInfoFacade, EmployeeInfoFacade>();
             serviceCollection.AddScoped<IEmployeesFacade, EmployeesFacade>();

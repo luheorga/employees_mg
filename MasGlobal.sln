@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Data", "..\MassGlobal.Employees.Data\MasGlobal.Employees.Data.csproj", "{4202E5C4-5BF7-47F9-B548-D61158E222E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Data", "MassGlobal.Employees.Data\MasGlobal.Employees.Data.csproj", "{4202E5C4-5BF7-47F9-B548-D61158E222E5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Data.Abstractions", "MasGlobal.Employees.Data.Interfaces\MasGlobal.Employees.Data.Abstractions.csproj", "{AB573BE0-7407-42A6-8419-E21329839007}"
 EndProject
