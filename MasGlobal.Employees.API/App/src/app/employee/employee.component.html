@@ -1,19 +1,35 @@
-<div class="container">
-  <div class="row">
-    <div class="col">
-        <input type="number" #employeeId>
-        <button (click)="getEmployees(employeeId.value)">Get Employees</button>        
-    </div>      
+<div class="input-group mb-3">
+  <input type="number" class="form-control" placeholder="Employee id or empty for all" #employeeId>
+  <div class="input-group-append">
+    <button class="btn btn-outline-primary" type="button" (click)="getEmployees(employeeId.value)">Get
+      Employees</button>
   </div>
-  <div class="row">
-      <ng-container *ngFor="let employee of employees$ | async">
-          <div>{{employee.name}}</div><br>
-        </ng-container>
-  </div>  
 </div>
-
-
-
-
-
-
+<div class="table-responsive">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Role</th>
+        <th scope="col">Role Description</th>
+        <th scope="col">Contract Type</th>
+        <th scope="col">Salary</th>
+        <th scope="col">Annual Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let employee of employees$ | async">
+        <tr>
+          <th scope="row">{{employee.id}}</th>
+          <td>{{employee.name}}</td>
+          <td>{{employee.roleName}}</td>
+          <td>{{employee.roleDescription}}</td>
+          <td>{{employee.contractName}}</td>
+          <td>{{employee.salary | currency}}</td>
+          <td>{{employee.annualSalary | currency}}</td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>
