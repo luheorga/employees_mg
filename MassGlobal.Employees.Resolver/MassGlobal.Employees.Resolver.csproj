@@ -8,4 +8,11 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\MassGlobal.Employees.Data\MasGlobal.Employees.Data.csproj" />
+    <ProjectReference Include="..\MasGlobal.Employees.Application\MasGlobal.Employees.Application.csproj" />
+    <ProjectReference Include="..\MasGlobal.Employees.Data.Interfaces\MasGlobal.Employees.Data.Abstractions.csproj" />
+    <ProjectReference Include="..\MasGlobal.Employees.Domain\MasGlobal.Employees.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

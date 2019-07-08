@@ -1,4 +1,5 @@
 using System;
+using MasGlobal.Employees.Data.Abstractions;
 
 namespace MasGlobal.Employees.Domain.Contract
 {

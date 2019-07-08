@@ -1,5 +1,5 @@
 using System;
-using MasGlobal.Employees.Domain;
+using MasGlobal.Employees.Data.Abstractions;
 using MasGlobal.Employees.Domain.Contract;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

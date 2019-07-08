@@ -1,3 +1,5 @@
+using MasGlobal.Employees.Data.Abstractions;
+
 namespace MasGlobal.Employees.Domain.Contract
 {
     public class MonthlyEmployeeContract : IEmployeeContract
@@ -8,6 +10,8 @@ namespace MasGlobal.Employees.Domain.Contract
         {
             _employee = employee;
         }
+
+        public string ConctratName => "Monthly";
 
         public decimal GetSalary()
         {

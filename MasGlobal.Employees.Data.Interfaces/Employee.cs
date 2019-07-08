@@ -1,4 +1,4 @@
-﻿namespace MasGlobal.Employees.Domain
+﻿namespace MasGlobal.Employees.Data.Abstractions
 {
     public class Employee
     {
