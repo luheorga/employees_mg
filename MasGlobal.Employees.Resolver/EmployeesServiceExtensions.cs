@@ -4,7 +4,7 @@ using MasGlobal.Employees.Data.Abstractions;
 using MasGlobal.Employees.Domain;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace MassGlobal.Employees.Resolver
+namespace MasGlobal.Employees.Resolver
 {
     public static class EmployeesServiceExtensions
     {

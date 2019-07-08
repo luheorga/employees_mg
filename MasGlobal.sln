@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Data", "MassGlobal.Employees.Data\MasGlobal.Employees.Data.csproj", "{4202E5C4-5BF7-47F9-B548-D61158E222E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Data", "MasGlobal.Employees.Data\MasGlobal.Employees.Data.csproj", "{4202E5C4-5BF7-47F9-B548-D61158E222E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Data.Abstractions", "MasGlobal.Employees.Data.Interfaces\MasGlobal.Employees.Data.Abstractions.csproj", "{AB573BE0-7407-42A6-8419-E21329839007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Data.Abstractions", "MasGlobal.Employees.Data.Interfaces\MasGlobal.Employees.Data.Abstractions.csproj", "{AB573BE0-7407-42A6-8419-E21329839007}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassGlobal.Employees.Resolver", "MassGlobal.Employees.Resolver\MassGlobal.Employees.Resolver.csproj", "{AC2CE2F2-CFBB-4BA5-A2A1-86FA4CEE59FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Resolver", "MasGlobal.Employees.Resolver\MasGlobal.Employees.Resolver.csproj", "{AC2CE2F2-CFBB-4BA5-A2A1-86FA4CEE59FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Domain", "MasGlobal.Employees.Domain\MasGlobal.Employees.Domain.csproj", "{DABCC854-436F-4CA4-B425-081BD42D506A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Domain", "MasGlobal.Employees.Domain\MasGlobal.Employees.Domain.csproj", "{DABCC854-436F-4CA4-B425-081BD42D506A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.API", "MasGlobal.Employees.API\MasGlobal.Employees.API.csproj", "{09FF5716-B5B1-417A-8E03-7C78E61C0C2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.API", "MasGlobal.Employees.API\MasGlobal.Employees.API.csproj", "{09FF5716-B5B1-417A-8E03-7C78E61C0C2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Test", "MasGlobal.Employees.Test\MasGlobal.Employees.Test.csproj", "{DFA7AF5E-A64E-43D4-9AE0-4ADC40707839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Test", "MasGlobal.Employees.Test\MasGlobal.Employees.Test.csproj", "{DFA7AF5E-A64E-43D4-9AE0-4ADC40707839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasGlobal.Employees.Application", "MasGlobal.Employees.Application\MasGlobal.Employees.Application.csproj", "{B796EFF4-3F68-438A-9519-3F7B2B486364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MasGlobal.Employees.Application", "MasGlobal.Employees.Application\MasGlobal.Employees.Application.csproj", "{B796EFF4-3F68-438A-9519-3F7B2B486364}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

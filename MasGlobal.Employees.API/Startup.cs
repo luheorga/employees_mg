@@ -1,4 +1,4 @@
-﻿using MassGlobal.Employees.Resolver;
+﻿using MasGlobal.Employees.Resolver;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 

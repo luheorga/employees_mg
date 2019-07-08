@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MassGlobal.Employees.Data\MasGlobal.Employees.Data.csproj" />
+    <ProjectReference Include="..\MasGlobal.Employees.Data\MasGlobal.Employees.Data.csproj" />
     <ProjectReference Include="..\MasGlobal.Employees.Application\MasGlobal.Employees.Application.csproj" />
     <ProjectReference Include="..\MasGlobal.Employees.Data.Interfaces\MasGlobal.Employees.Data.Abstractions.csproj" />
     <ProjectReference Include="..\MasGlobal.Employees.Domain\MasGlobal.Employees.Domain.csproj" />
