@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+        <input type="number" #employeeId>
+        <button (click)="getEmployees(employeeId.value)">Get Employees</button>        
+    </div>      
+  </div>
+  <div class="row">
+      <ng-container *ngFor="let employee of employees$ | async">
+          <div>{{employee.name}}</div><br>
+        </ng-container>
+  </div>  
+</div>
+
+
+
+
+
+
