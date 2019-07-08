@@ -33,9 +33,9 @@ namespace MasGlobal.Employees.Domain
             return new EmployeeInfo(employee);
         }
 
-        public static List<EmployeeInfo> GetEmployeesInfo(List<Employee> employees)
+        public static IEnumerable<EmployeeInfo> GetEmployeesInfo(IEnumerable<Employee> employees)
         {
-            return employees.Select(GetEmployeeInfo).ToList();
+            return employees.Select(GetEmployeeInfo);
         }
     }
 }

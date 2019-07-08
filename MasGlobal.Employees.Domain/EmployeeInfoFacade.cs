@@ -10,7 +10,7 @@ namespace MasGlobal.Employees.Domain
             return EmployeeInfo.GetEmployeeInfo(employee);
         }
 
-        public List<EmployeeInfo> GetEmployeesInfo(List<Employee> employees)
+        public IEnumerable<EmployeeInfo> GetEmployeesInfo(IEnumerable<Employee> employees)
         {
             return EmployeeInfo.GetEmployeesInfo(employees);
         }

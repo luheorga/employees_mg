@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MasGlobal.Employees.Data.Abstractions
 {
     public interface IEmployeesRepository
     {
-        List<Employee> GetEmployees();
-        Employee GetEmployee(int id);
+        Task<IEnumerable<Employee>> GetEmployees();
+        Task<Employee> GetEmployee(int id);
     }
 }

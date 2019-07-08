@@ -6,6 +6,6 @@ namespace MasGlobal.Employees.Domain
     public interface IEmployeeInfoFacade
     {
         EmployeeInfo GetEmployeeInfo(Employee employee);
-        List<EmployeeInfo> GetEmployeesInfo(List<Employee> employees);
+        IEnumerable<EmployeeInfo> GetEmployeesInfo(IEnumerable<Employee> employees);
     }
 }
