@@ -11,3 +11,7 @@ To get started clone or download the repo and run MasGlobal.Employees.API in vis
 
 - Asp Net core 2.2
 - Node js 8+
+
+# TODO
+- Add better exception handling in server and client
+- Move ApiUrl from EmployeesAPIRepository to AppSettings.json
