@@ -27,7 +27,7 @@ namespace MasGlobal.Employees.Test
 
             EmployeeInfo employeeInfo = EmployeeInfo.GetEmployeeInfo(employee);
 
-            Assert.AreEqual(contract.ConctratName, employeeInfo.ContratcName);
+            Assert.AreEqual(contract.ContractName, employeeInfo.ContractName);
             Assert.AreEqual(contract.GetSalary(), employeeInfo.Salary);
             Assert.AreEqual(contract.GetAnnualSalary(), employeeInfo.AnnualSalary);
             Assert.AreEqual(1, employeeInfo.Id);

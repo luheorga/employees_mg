@@ -2,7 +2,7 @@ namespace MasGlobal.Employees.Domain.Contract
 {
     public interface IEmployeeContract
     {
-        string ConctratName { get; }
+        string ContractName { get; }
         decimal GetSalary();
         decimal GetAnnualSalary();
     }

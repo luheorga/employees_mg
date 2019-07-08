@@ -13,7 +13,9 @@ namespace MasGlobal.Employees.API
         {
             services.AddMvcCore()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
-                .AddJsonFormatters();
+                .AddJsonFormatters()
+                .AddCors(options => options.AddPolicy("https", 
+                    builder => builder.WithOrigins("https://localhost:5001")));
 
             services.AddEmployeeServices();
 
@@ -25,6 +27,7 @@ namespace MasGlobal.Employees.API
         
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseCors("https");
             app.UseSpaStaticFiles();
             app.UseMvc();
             app.UseSpa(spa =>

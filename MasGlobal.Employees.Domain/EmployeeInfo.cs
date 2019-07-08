@@ -24,7 +24,7 @@ namespace MasGlobal.Employees.Domain
         public int RoleId => _employee.RoleId;
         public string RoleName => _employee.RoleName;
         public string RoleDescription => _employee.RoleDescription;
-        public string ContratcName => _employeeContract.ConctratName;
+        public string ContractName => _employeeContract.ContractName;
         public decimal Salary => _employeeContract.GetSalary();
         public decimal AnnualSalary => _employeeContract.GetAnnualSalary();
 

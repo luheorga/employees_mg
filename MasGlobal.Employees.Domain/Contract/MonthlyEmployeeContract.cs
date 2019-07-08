@@ -11,7 +11,7 @@ namespace MasGlobal.Employees.Domain.Contract
             _employee = employee;
         }
 
-        public string ConctratName => "Monthly";
+        public string ContractName => "Monthly";
 
         public decimal GetSalary()
         {
