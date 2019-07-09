@@ -3,6 +3,7 @@ using MasGlobal.Employees.Configuration;
 using MasGlobal.Employees.Resolver;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
@@ -52,7 +53,6 @@ namespace MasGlobal.Employees.API
                     .AllowCredentials();
             });
             app.UseSpaStaticFiles();
-            app.UseExceptionHandler();
             app.UseMvc();
             app.UseSpa(spa =>
             {
