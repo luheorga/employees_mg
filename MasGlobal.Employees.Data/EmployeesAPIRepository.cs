@@ -2,7 +2,9 @@
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using MasGlobal.Employees.Configuration;
 using MasGlobal.Employees.Data.Abstractions;
+using Microsoft.Extensions.Options;
 
 namespace MasGlobal.Employees.Data
 {
@@ -10,11 +12,12 @@ namespace MasGlobal.Employees.Data
     {
         private readonly IHttpClientFactory _clientFactory;
 
-        private const string ApiUrl = "http://masglobaltestapi.azurewebsites.net/api/Employees";
+        private readonly string _apiUrl; 
 
-        public EmployeesAPIRepository(IHttpClientFactory clientFactory)
+        public EmployeesAPIRepository(IHttpClientFactory clientFactory, IOptionsSnapshot<ApiConfiguration> optionsSnapshot)
         {
             _clientFactory = clientFactory;
+            _apiUrl = optionsSnapshot.Value.EmployeeApiUrl;
         }
 
         public async Task<IEnumerable<Employee>> GetEmployees()
@@ -38,7 +41,7 @@ namespace MasGlobal.Employees.Data
 
         private HttpRequestMessage CreateRequestMessage()
         {
-            var request = new HttpRequestMessage(HttpMethod.Get, ApiUrl);
+            var request = new HttpRequestMessage(HttpMethod.Get, _apiUrl);
             request.Headers.Add("Accept", "application/json");
             return request;
         }
