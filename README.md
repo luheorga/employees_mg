@@ -8,7 +8,7 @@ To get started clone or download the repo and run MasGlobal.Employees.API in vis
 
 # Requirements
 
-- Asp Net core 2.2, [Get.Net Core SDK](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.300-windows-x64-installer)
+- .Net Core 2.2.107 (compatible with visual studio 2017), [Get .Net Core SDK](https://dotnet.microsoft.com/download/thank-you/dotnet-sdk-2.2.107-windows-x64-installer)
 - Node js 8+, [Get NodeJS](https://nodejs.org/dist/v10.16.0/node-v10.16.0-x64.msi)
 - [Angular CLI](https://cli.angular.io/) 7+, to install run `npm install @angular/cli`
 
